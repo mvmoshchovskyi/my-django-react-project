@@ -1,0 +1,6 @@
+.env
+.env.db
+.idea
+node_modules
+venv
+db_django
