@@ -5,7 +5,7 @@ import {listProducts, productSearch,filterProducts} from "../actions/productActi
 
 
 const Pagination = ({currentPage, totalResults, listProducts, sex,filterProducts}) => {
-    console.log('SEX',sex)
+
     const numberPages = Math.floor(totalResults / 6);
 
     let items = [];
